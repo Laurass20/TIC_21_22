@@ -3,7 +3,7 @@ def saludador_2 () :
     edad = input ("Cuántos anios tienes?")
     lugar = raw_input ("Dónde vives?")
     print ("Buenos días, "+nombre)
-    print ("tienes "+edad+" anios")
+    print ("tienes "+str(edad)+" anios")
     print (" y se que vives en "+lugar)
     print (" ten cuidado")
 
