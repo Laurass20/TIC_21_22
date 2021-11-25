@@ -9,4 +9,4 @@ def cuadrado_numerico_2():
             fila=fila+"1"
         print fila
         fila=""
-cuadrado()
+cuadrado_numerico_2()
