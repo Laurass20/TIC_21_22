@@ -7,4 +7,4 @@ def saludador_2 () :
     print (" y se que vives en "+lugar)
     print (" ten cuidado")
 
-saludador_2 ()
+saludador_2()
