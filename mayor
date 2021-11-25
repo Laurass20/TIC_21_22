@@ -16,4 +16,4 @@ def mayor():
     print("MAYOR= "+str(mayor))
     print("MENOR= "+str(menor))
     print("MEDIA= "+str(media))
-mayor
+mayor()
