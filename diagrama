@@ -5,4 +5,4 @@ def diagrama():
         print (cont,sumita)
         sumita=sumita*cont
     
-diagrama
+diagrama()
