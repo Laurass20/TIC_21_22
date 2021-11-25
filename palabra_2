@@ -7,4 +7,4 @@ def palabra_2():
     for cont in range(0,20):
         print(nombre[cont])
     
-palabra_2
+palabra_2()
