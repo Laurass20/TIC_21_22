@@ -3,4 +3,4 @@ def contador_1 () :
     for cont in rage (0,10) :
         print (cont)
         
-contador_1
+contador_1()
