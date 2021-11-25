@@ -8,4 +8,4 @@ def gauss_pares () :
             acum=acum+cont
         print (str(cont) +" acum= "+str(acum))
          
-gauss_pares 
+gauss_pares()
