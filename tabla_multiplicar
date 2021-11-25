@@ -5,4 +5,4 @@ def tabla_multiplicar():
         print("numero "+ " x "+ str(cont)+ " = "+str(numero*cont))
         cont=cont+1
         
-tabla_multiplicar
+tabla_multiplicar()
