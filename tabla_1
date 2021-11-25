@@ -1,4 +1,4 @@
-def tabla_1 () :
+def tabla_1():
     print ("**************************")
     print ("*   TABLA DEL 7          *")
     print ("**************************")
@@ -8,4 +8,4 @@ def tabla_1 () :
     
     
     
-tabla_1
+tabla_1()
