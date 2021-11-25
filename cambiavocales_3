@@ -24,4 +24,4 @@ def cambiavocales_3():
         
     print("palabra transformada "+nueva_palabra)
     
-cambiavocales_3
+cambiavocales_3()
