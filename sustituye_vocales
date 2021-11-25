@@ -18,4 +18,4 @@ def sustituye_vocales():
         cont=cont+1
     print("Palabra transformada "+palabra)
     
-sustituye_vocales
+sustituye_vocales()
