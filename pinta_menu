@@ -12,8 +12,11 @@ def manda_error():
 
 def suma(num1,num2):
     respuesta=num1+num2
-    return(respuesta)
-
+    return (respuesta)
+    
+def division(num1,num2):
+    respuesta=num1/num2
+    return (respuesta)
 
 def menu_2():
     #Pedimos dos numeros
@@ -47,7 +50,7 @@ def menu_2():
                print(num1*num2)
                 #OPCION COCIENTE   
             else:
-                print(float(num1)/num2)
+                print(division(float(num1)/num2))
                 
     
     
