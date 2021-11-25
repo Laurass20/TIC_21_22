@@ -5,4 +5,4 @@ def gauss () :
         acum=acum+cont
         print (str(cont) +" acum= "+str(acum))
          
-gauss 
+gauss()
