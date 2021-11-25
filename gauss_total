@@ -15,4 +15,4 @@ def gauss_total () :
     print ("La suma de los pares= "+ str(suma_par))
     print ("La suma de los impares= "+str (suma_impar))
     print ("La suma TOTAL= "+str(suma_total))
-gauss_total
+gauss_total()
