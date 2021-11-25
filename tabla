@@ -1,4 +1,4 @@
-def tabla () :
+def tabla():
     n=input ("Que tabla deseas: ")
     print ("***************************")
     print ("         TABLA DEL "+str(n)+"           *")
@@ -7,4 +7,4 @@ def tabla () :
         print(" "+str(n)+"x"+str(cont)+" = "+str(cont*n))
         
         
-tabla 
+tabla()
