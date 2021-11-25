@@ -10,4 +10,4 @@ def mayor():
     print mayor
     print menor
     print total/3
-mayor
+mayor()
