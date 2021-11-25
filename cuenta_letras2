@@ -17,4 +17,4 @@ def cuenta_letras2():
     print("Consonantes: "+str(consonante))
     print("Numero total: "+str(vocal+consonante))
     
-cuenta_letras2
+cuenta_letras2()
