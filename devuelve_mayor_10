@@ -6,4 +6,4 @@ def devuelve_mayor_10():
             mayor=num 
         print("MAYOR= "+str(mayor))
         
-devuelve_mayor_10
+devuelve_mayor_10()
