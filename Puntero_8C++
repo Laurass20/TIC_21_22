@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+//ORDENAR POR numero de vocales
+int cuenta_vocales(char *letrita){
 
+
+}
 
 int main(){
     //RESERVA DINAMICA DE MEMORIA
@@ -30,7 +34,7 @@ int main(){
         //LA ORDENO DE MENOR A MAYOR
         for(repetir=1;repetir<5;repetir++){
            for(cont=0;cont<=3;cont++){
-                   if(strlen(mispalabras[cont])>strlen(mispalabras[cont+1])){
+                   if(cuenta_vocales(mispalabras[cont])>cuenta_vocales(mispalabras[cont+1]){
                           aux=mispalabras[cont];
                           mispalabras[cont]=mispalabras[cont+1];
                           mispalabras[cont+1]=aux;
