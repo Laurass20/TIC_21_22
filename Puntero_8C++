@@ -7,9 +7,16 @@ int cuenta_vocales(char *letrita){
         int cont;
         int longitud;
         longitud=strlen(letrita);
+        //printf("\nSoy la funcion y me has enviado la palabra: %s",letrita);
+        //printf("\nSu longitud es de %d",longitud);
         for(cont=0;cont<longitud;cont++){
-                if(*(letrita+cont)=='A' || *(letrita+cont)=='a')
+                printf("\nla letra %d es %c",cont,*(letrita+cont));
+                if(*(letrita+cont)=='A' || *(letrita+cont)=='a'){
                         n_vocales++;
+                        //printf("\nTiene una a. De momento %d vocales",n_vocales);        
+                       
+                }
+               
                 if(*(letrita+cont)=='E' || *(letrita+cont)=='e')
                         n_vocales++;
                 if(*(letrita+cont)=='I' || *(letrita+cont)=='i')
@@ -17,11 +24,10 @@ int cuenta_vocales(char *letrita){
                 if(*(letrita+cont)=='O' || *(letrita+cont)=='o')
                         n_vocales++;
                 if(*(letrita+cont)=='U' || *(letrita+cont)=='u')
-                        n_vocales++;
-        return(n_vocales);        
+                        n_vocales++;        
                
         }
-
+        return(n_vocales);
 
 }
 
