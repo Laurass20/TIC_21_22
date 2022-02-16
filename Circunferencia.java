@@ -4,9 +4,9 @@ public class Circunferencia {
 	//ATRIBUTOS
 	int coordX;
 	int coordY;
-	float radio;
+	double radio;
 	//CONSTRUCTOR
-	public Circunferencia(int coordX,int coordY,float radio){
+	public Circunferencia(int coordX,int coordY,double radio){
 		this.coordX=coordX;
 		this.coordY=coordY;
 		this.radio=radio;
