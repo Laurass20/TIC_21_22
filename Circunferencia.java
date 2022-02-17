@@ -2,32 +2,31 @@ package MCodigo;
 
 public class Circunferencia {
 	//ATRIBUTOS
-	int coordX;
-	int coordY;
-	double radio;
+	private MiParejaNumeros centroCirculo;
+	private double radio;
 	//CONSTRUCTOR
 	public Circunferencia(int coordX,int coordY,double radio){
-		this.coordX=coordX;
-		this.coordY=coordY;
+		super();
+		centroCirculo=new MiParejaNumeros(coordX,coordY);
 		this.radio=radio;
 	}
 	//MÉTODOS DET GET
-	void setCoordX(int coordX){
-		this.coordX=coordX;
+	public void setCoordX(int coordX){
+		centroCirculo.setNum1(coordX)
 	}
-	void setCoordY(int coordY){
+	public void setCoordY(int coordY){
 		this.coordY=coordY;
 	}
-	void setRadio(float radio){
+	public void setRadio(float radio){
 		this.radio=radio;
 	}
-	int getCoordX(){
-		return coordX;
+	public int getCoordX(){
+		return(centroCirculo.getNum1());
 	}
-	int getCoordY(){
+	public int getCoordY(){
 		return coordY;
 	}
-	float getRadio() {
+	public float getRadio() {
 		return radio;
 	}
 }
