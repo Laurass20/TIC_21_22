@@ -15,4 +15,9 @@ public class ManejaFecha {
 				System.out.println("La fecha1 es anterior a la fecha2");
 				
 			}
+			fecha1.setMes(2);
+			System.out.println("El nuevo mes es "+fecha1.getMes(0));
+		   	fecha1.setMes("Enero");
+		   	System.out.println("El nuevo mes es "+fecha1.getMes(1));
 		}
+}
