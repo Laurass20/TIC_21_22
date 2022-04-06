@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:orange;padding:15px;">
+  <h1>Cinque Terre</h1>
+  <h3>Cambiar el tamaño de la ventana del navegador</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">La caminata</div>
+    <div class="menuitem">Transporte</div>
+    <div class="menuitem">Historia</div>
+    <div class="menuitem">Galería</div>
+  </div>
+
+  <div class="main">
+    <h2>La caminata</h2>
+    <p>La caminata de Monterosso a Riomaggiore te tomará aproximadamente dos horas, más o menos una hora dependiendo de las condiciones climáticas y tu forma física.</p>
+    <img src="img_5terre.jpg" style="width:100%">
+  </div>
+
+  <div class="right">
+    <h2>¿Qué?</h2>
+    <p>Cinque Terre comprende cinco pueblos: Monterosso, Vernazza, Corniglia, Manarola y Riomaggiore.</p>
+    <h2>¿Dónde?</h2>
+    <p>En la costa noroeste de la Riviera italiana, al norte de la ciudad de La Spezia.</p>
+    <h2>¿Precio?</h2>
+    <p>¡La Caminata es gratis!</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> Esta página web es parte de una demostración de diseño web fluido realizada por w3schools.com. Cambie el tamaño de la ventana del navegador para ver cómo el contenido responde al cambio de tamaño.</div>
+
+</body>
+</html>
